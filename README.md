@@ -49,7 +49,7 @@ provider "digitalocean" {
 ```
 6. ```bash terraform init``` will set up your working directory with the files needed to work with your provider
 
-7. In main.tf we can now add our data blocks to use our SSH key and DigitalOcean project
+7. In main.tf we can now add our data blocks to use our SSH key and DigitalOcean project. The name variables should be the same as what you named your ssh key and project
 ```terraform
 data "digitalocean_ssh_key" "ssh_key" {
   name = "4640_ssh"
