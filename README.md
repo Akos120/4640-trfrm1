@@ -59,9 +59,9 @@ data "digitalocean_project" "lab_project" {
   name = "4640-wk5"
 }
 ```
-8. Use the command ```bash terraform validate``` to check your syntax and structure
-```bash terraform fmt``` to format your main.tf file
-```bash terraform plan``` to show an overview of what you are making without acutally creating the resources.
+8. Use the command ```bash terraform validate``` to check your syntax and structure  
+```bash terraform fmt``` to format your main.tf file  
+```bash terraform plan``` to show an overview of what you are making without acutally creating the resources.  
 
 9. Create resource blocks for adding tags and vpc:
   - tags
@@ -91,7 +91,7 @@ resource "digitalocean_droplet" "web" {
 }
 ```
 
-*Make sure to keep validating and planning your code as you work
+*Make sure to keep validating and planning your code as you work*
 
 11. Attach the resources to your project
 ```terraform
